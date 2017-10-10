@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:galeria"
+             x:Class="galeria.MainPage">
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="Im1.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg1"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng1"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="Im2.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg2"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng2"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="Im3.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg3"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng3"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                
+                <Image Source="Im4.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg4"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng4"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="Im5.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg5"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng5"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+              <Image Source="Im6.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg6"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng6"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+              
+                <Image Source="Im7.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg7"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng7"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="Im8.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg8"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng8"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="Im9.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg9"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng9"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Image Source="Im10.png"/>
+                <Button Text="Me Gusta"  HorizontalOptions="Center" Clicked="Mg10"></Button>
+                <Button Text="No Me Gusta" HorizontalOptions="Center" Clicked="Ng10"></Button>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage BackgroundColor="Coral">
+            <ContentPage.Content>
+                <StackLayout>
+                <Label VerticalOptions="Center" HorizontalOptions="Center">CONTEO</Label>
+                <Entry x:Name="resultado"></Entry>
+                    <Button Text="Me Gusta"  HorizontalOptions="Center" VerticalOptions="Center" Clicked="M"></Button>
+                    <Button Text="No Me Gusta" HorizontalOptions="Center"  VerticalOptions="Center" Clicked="NM"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+   
+</CarouselPage>
